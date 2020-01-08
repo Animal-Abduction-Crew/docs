@@ -10,8 +10,8 @@
 
 ## Other Links
 
-https://cloud.google.com/vision/automl/object-detection/docs/prepare
-https://developers.google.com/machine-learning/glossary/
-https://www.tensorflow.org/resources/learn-ml
-https://en.wikipedia.org/wiki/Machine_learning
-https://www.tensorflow.org/tutorials/images/classification
+* https://cloud.google.com/vision/automl/object-detection/docs/prepare
+* https://developers.google.com/machine-learning/glossary/
+* https://www.tensorflow.org/resources/learn-ml
+* https://en.wikipedia.org/wiki/Machine_learning
+* https://www.tensorflow.org/tutorials/images/classification
