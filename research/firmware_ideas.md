@@ -8,6 +8,7 @@ Brainstorming ideas for developing our robot 🙂
   - [Ultrasonic sensor controller](#ultrasonic-sensor-controller)
   - [Line detection sensor controller](#line-detection-sensor-controller)
   - [Object detection controller](#object-detection-controller)
+  - [Microphone controller](#microphone-controller)
 - [TODO](#todo)
 
 ## Controllers
@@ -83,6 +84,12 @@ int maxY;
 int minX;
 int minY;
 ```
+
+### Microphone controller
+
+Capabilities:
+
+* emits events for required intents
 
 ## TODO
 
