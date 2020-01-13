@@ -18,12 +18,18 @@ frog
 
 1. Open `labelImg.exe`
 2. ⚠ **IMPORTANT** ⚠: Switch the label style by clicking on the `Pascal/VOC` button on the left toolbar so that it is set to `YOLO`
-3. Open the folder which contains the images to be labeled by pressing the `Open Dir` button
-4. Draw a rectangle around each pet in the picture using the `Create \nRectBox` button and label it with on of the labels (`elephant`, `tiger`, `star`, `cat`, `frog`). It is important to use **exactly** those labels!
-5. If you labeled every animal in a picture press the `Save` button and afterwards the `Next image`
+3. Click on `View` (top toolbar) and enable auto mode by clicking on `Auto Save Mode`
+4. Click on `Change Save Dir` (left toolbar) and select a save directory (e.g. the frames directory)
+5. Open the folder which contains the images to be labeled by pressing the `Open Dir` button
+6. Draw a rectangle around each pet in the picture using the `Create \nRectBox` button and label it with on of the labels (`elephant`, `tiger`, `star`, `cat`, `frog`). It is important to use **exactly** those labels!
+7. If you labeled every animal in a picture press the `Next image` button
 
 `labelImg` will create a `.txt` file for each image. Happy labeling! 😀
 
-## ⚠ **IMPORTANT** ⚠
+## ⚠ **IMPORTANT RULES FOR LABELING** ⚠
 
-* DO NOT label an animal if it is not 100% visible
+* **DO NOT** label an animal if it is not 100% visible (e.g. one half is cut off the image)
+* **DO NOT** label animals which are very far away and hard to detect
+* If there is an image without an animal on it just skip it. We'll delete useless `.png` files from GDrive when you submit your labels
+* If an image is blurry label it nevertheless!
+* If an image is very **VERY** blurry and you have a hard time detecting the animals **DON'T** label it.
