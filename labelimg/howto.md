@@ -23,3 +23,7 @@ frog
 5. If you labeled every animal in a picture press the `Save` button and afterwards the `Next image`
 
 `labelImg` will create a `.txt` file for each image. Happy labeling! 😀
+
+## ⚠ **IMPORTANT** ⚠
+
+* DO NOT label an animal if it is not 100% visible
