@@ -14,13 +14,18 @@ cat
 frog
 ```
 
+## Claim an image set
+
+1. Open the `Wer-Macht-Was` file in the shared GDrive folder and insert yourself as an owner of an image set and set the status to `wip`.
+2. Download the folder you just took ownership of and start labeling ☺ 
+
 ## Labeling
 
 1. Open `labelImg.exe`
 2. ⚠ **IMPORTANT** ⚠: Switch the label style by clicking on the `Pascal/VOC` button on the left toolbar so that it is set to `YOLO`
 3. Click on `View` (top toolbar) and enable auto mode by clicking on `Auto Save Mode`
-4. Click on `Change Save Dir` (left toolbar) and select a save directory (e.g. the frames directory)
-5. Open the folder which contains the images to be labeled by pressing the `Open Dir` button
+4. Open the folder which contains the images to be labeled by pressing the `Open Dir` button
+5. Click on `Change Save Dir` (left toolbar) and select the `labels` folder as destination for label files.
 6. Draw a rectangle around each pet in the picture using the `Create \nRectBox` button and label it with on of the labels (`elephant`, `tiger`, `star`, `cat`, `frog`). It is important to use **exactly** those labels!
 7. If you labeled every animal in a picture press the `Next image` button
 
@@ -33,3 +38,9 @@ frog
 * If there is an image without an animal on it just skip it. We'll delete useless `.png` files from GDrive when you submit your labels
 * If an image is blurry label it nevertheless!
 * If an image is very **VERY** blurry and you have a hard time detecting the animals **DON'T** label it.
+
+## Submitting labels
+
+1. Upload the `labels` folder containing your labels to the folder you claimed earlier.
+2. Update the status of the folder in the `Wer-Macht-Was` file
+3. Thank you 🙂
