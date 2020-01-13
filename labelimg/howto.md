@@ -22,4 +22,4 @@ frog
 4. Draw a rectangle around each pet in the picture using the `Create \nRectBox` button and label it with on of the labels (`elephant`, `tiger`, `star`, `cat`, `frog`). It is important to use **exactly** those labels!
 5. If you labeled every animal in a picture press the `Save` button and afterwards the `Next image`
 
-have fun 😀
+`labelImg` will create a `.txt` file for each image. Happy labeling! 😀
