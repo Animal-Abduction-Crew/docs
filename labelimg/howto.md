@@ -2,7 +2,7 @@
 
 ## Setup
 
-1. Download the latest release binaries `.zip` file: https://github.com/tzutalin/labelImg/releases
+1. Download the latest release binaries `.zip` file: https://github.com/tzutalin/labelImg/releases ([windows_v1.8.1.zip](https://github.com/tzutalin/labelImg/files/2638199/windows_v1.8.1.zip) as of 2020-01-13)
 2. Open the `.zip` file and extract the all contents to a place of your choice
 3. ⚠ **IMPORTANT** ⚠: Open the `predefined_classes.txt` file in the `data` folder next to the `labelImg.exe` and replace the contents of the file with:
 
