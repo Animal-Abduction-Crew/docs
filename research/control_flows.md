@@ -7,7 +7,7 @@
 TODO:
 
 * Maybe a little bit too complex?
-* ULtrasonic-Problem
+* Ultrasonic-Problem
 
 ```plantuml
 
@@ -132,6 +132,20 @@ Idea:
 
 start
 
+:move forward to the middle of the playing field;
+note right
+    (by timing)
+end note
+:start moving in an expanding spiral;
+note right
+    avoid contact to non-targets by detecting them with IR / OD
+    and passing them in an outer sphere
+end note
+if (target detected?) then (yes)
+    stop
+else (no)
+    
+endif
 
 stop
 
