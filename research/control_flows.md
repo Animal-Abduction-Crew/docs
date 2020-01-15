@@ -143,11 +143,22 @@ note right
 end note
 if (target detected?) then (yes)
     stop
-else (no)
-    
 endif
-
-stop
+while (playing field boundary detected?)
+    :continue moving;
+    note right
+        (and avoid obstacles)
+    end note
+endwhile
+:start moving along the game boundary;
+if (target detected?) then (yes)
+    stop;
+else (no)
+    end
+    note right
+        at this point we can start a sprial again...
+    end note
+endif
 
 ```
 
