@@ -121,13 +121,6 @@ stop
 
 ## Concept v2
 
-Idea:
-
-* move to the middle 
-* start moving in a spiral
-* widen the spiral if obstacle detected
-* follow the game border
-
 ```plantuml
 
 start
