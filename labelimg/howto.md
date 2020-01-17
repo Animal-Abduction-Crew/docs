@@ -28,8 +28,9 @@ frog
 5. Click on `Change Save Dir` (left toolbar) and select the `labels` folder as destination for label files.
 6. Draw a rectangle around each pet in the picture using the `Create \nRectBox` button and label it with on of the labels (`elephant`, `tiger`, `star`, `cat`, `frog`). It is important to use **exactly** those labels!
 7. If you labeled every animal in a picture press the `Next image` button
+8. `labelImg` will create a `.txt` file for each image. Happy labeling! 😀
 
-`labelImg` will create a `.txt` file for each image. Happy labeling! 😀
+FYI: labelImg has some useful [hotkeys](https://github.com/tzutalin/labelImg#hotkeys)!
 
 ## ⚠ **IMPORTANT RULES FOR LABELING** ⚠
 
